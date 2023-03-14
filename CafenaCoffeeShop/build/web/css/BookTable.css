@@ -1,0 +1,109 @@
+/*
+ To change this license header, choose License Headers in Project Properties.
+ To change this template file, choose Tools | Templates
+ and open the template in the editor.
+*//* 
+    Created on : Nov 24, 2022, 2:08:30 PM
+    Author     : Asus
+*/
+
+/*.background
+{
+    margin: 10px 0;
+    padding: 0;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.table
+{
+    background-color: #614504;
+    height: 40px;
+    width: 120px;
+    margin: 15px;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+.menu-container select {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.table.selected
+{
+    background-color: #765852;
+}
+
+.table.occupied
+{
+    background-color: #fff;
+}
+
+.table:not(.occupied):hover
+{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.showcase .table.table:not(.occupied):hover
+{
+    cursor: default;
+    transform: scale(1);
+}
+
+.showcase {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #111;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase li small {
+}
+
+.tableChosse
+{   
+    text-align: center;
+    width: 70%;
+    margin: 20px auto;
+}
+
+form button {
+    background-color: #614504;
+    height: 40px;
+    width: 15%;
+    color: white;
+    font-size: 15px;
+    margin: 20px;
+}
+
+form button:hover {
+    cursor: default;
+    transform: scale(1.2);
+}
